@@ -1,3 +1,3 @@
-#!/bin/bash
-num = 98
-print(f"{num } Battery street")
+#!/usr/bin/python3
+number = 98
+print(f"{number:d} Battery street")

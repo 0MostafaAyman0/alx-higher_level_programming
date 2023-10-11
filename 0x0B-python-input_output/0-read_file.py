@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-"""Module to read a file"""
+"""
+    0-read_file: read_file()
+"""
 
 
 def read_file(filename=""):
-    """Read a file in utf8 encoding and print to stdout
-
-    Args:
-        filename (str): file to open
     """
-    with open(filename, 'r', encoding='utf8') as f:
-        print(f.read(), end="")
+        read_file reads teaxt file and prints to stdout
+    """
+    with open(filename, "r", encoding='utf-8') as a_file:
+        print("{}".format(a_file.read()), end="")

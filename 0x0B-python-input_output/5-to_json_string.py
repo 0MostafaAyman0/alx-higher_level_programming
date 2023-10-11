@@ -1,6 +1,14 @@
 #!/usr/bin/python3
-from json import dumps
+"""Module to convert objects to json"""
+import json
 
 
 def to_json_string(my_obj):
-    return dumps(my_obj)
+    """Convert serializable `obj` to json string
+
+    Args:
+        obj: serializable object
+
+    Returns: string representation of `obj`
+    """
+    return json.dumps(my_obj)
